@@ -3,11 +3,11 @@
 import { useState, useEffect } from 'react';
 import { Clock } from 'lucide-react';
 import { MotionDiv, fadeInUp, staggerContainer } from './MotionWrapper';
-import { getTimeUntilDate } from '@/lib/utils';
-import { siteConfig } from '@/lib/config';
+import { getTimeUntilDate } from '../lib/utils';
+import { siteConfig } from '../lib/config';
 import Container from './Container';
 import Section from './Section';
-import { Button } from '@/components/ui/button';
+
 
 export default function BatchCountdown() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -68,12 +68,12 @@ export default function BatchCountdown() {
           </MotionDiv>
 
           <MotionDiv variants={fadeInUp}>
-            <Button variant="gradient" size="xl" className="mr-4 mb-4">
+            <button  className="mr-4 mb-4">
               Reserve Your Seat
-            </Button>
-            <Button variant="glass" size="xl" className="mb-4">
+            </button>
+            <button  className="mb-4">
               Learn More
-            </Button>
+            </button>
           </MotionDiv>
         </MotionDiv>
       </Container>

@@ -5,8 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { MotionDiv } from './MotionWrapper';
-import { siteConfig } from '@/lib/config';
-import { Button } from '@/components/ui/button';
+import { siteConfig } from '../lib/config';
+
 import Container from './Container';
 
 export default function Navigation() {
@@ -103,11 +103,11 @@ export default function Navigation() {
                 </Link>
               ))}
               
-              <Button variant="gradient" size="sm" className="w-fit" asChild>
+              <button className="w-fit" >
                 <Link href="/contact" onClick={() => setIsOpen(false)}>
                   Get Started
                 </Link>
-              </Button>
+              </button>
             </div>
           </MotionDiv>
         )}

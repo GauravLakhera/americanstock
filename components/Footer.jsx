@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Instagram, Send, Youtube, Phone, Mail, MapPin } from 'lucide-react';
-import { siteConfig } from '@/lib/config';
+import { siteConfig } from '../lib/config';
 import Container from './Container';
 
 export default function Footer() {

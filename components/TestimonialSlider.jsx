@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
 import { MotionDiv, fadeInUp, staggerContainer } from './MotionWrapper';
-import { testimonials } from '@/lib/config';
+import { testimonials } from '../lib/config';
 import Container from './Container';
 import Section from './Section';
 

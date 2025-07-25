@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 import { MotionDiv, fadeInUp, staggerContainer } from "./MotionWrapper";
-import { benefits } from "@/lib/config";
+import { benefits } from "../lib/config";
 import Container from "./Container";
 import Section from "./Section";
 
