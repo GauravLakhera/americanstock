@@ -83,7 +83,7 @@ export default function BatchCTA() {
               {[
                 { icon: Calendar, label: "Start Date", value: "Aug 15, 2025", color: "bg-blue-500" },
                 { icon: Clock, label: "Duration", value: "6 Weeks", color: "bg-green-500" },
-                { icon: Users, label: "Batch Size", value: "Max 25 Students", color: "bg-purple-500" },
+                { icon: Users, label: "Batch Size", value: "Max 15 Students", color: "bg-purple-500" },
                 { icon: MapPin, label: "Mode", value: "Online + Offline", color: "bg-orange-500" },
               ].map((item, index) => (
                 <div
