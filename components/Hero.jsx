@@ -44,7 +44,7 @@ const HeroSection = () => {
       style={{ backgroundImage: "url('/images/bg2.jpg')" }}
     >
       {/* dark overlay for readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-black/50 from-black/80 via-transparent to-transparent" />
 
       <motion.div
         className="relative z-10 max-w-5xl px-6 sm:px-8"
@@ -76,7 +76,7 @@ const HeroSection = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="inline-block text-green-700 text-4xl sm:text-5xl md:text-7xl drop-shadow-[0_1px_1px_rgba(255,255,255,1)]"
+                className="inline-block text-green-500 text-4xl sm:text-5xl md:text-7xl"
               >
                 Master the Markets
               </motion.span>
@@ -167,15 +167,15 @@ const HeroSection = () => {
           variants={item}
         >
           <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-700">1,000+</div>
+            <div className="text-3xl font-extrabold text-green-500">1,000+</div>
             <div className="text-sm font-light">Students Trained</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-700">95%</div>
+            <div className="text-3xl font-extrabold text-green-500">95%</div>
             <div className="text-sm font-light">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-700">5+</div>
+            <div className="text-3xl font-extrabold text-green-500">5+</div>
             <div className="text-sm font-light">Years Experience</div>
           </div>
         </motion.div>
