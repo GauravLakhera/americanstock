@@ -168,17 +168,17 @@ export default function AboutPage() {
               {/* Timeline */}
               <div className="mt-8 space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-800 rounded-full"></div>
                   <span className="font-semibold">2019</span>
                   <span className="text-gray-600">Institute Founded</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-800 rounded-full"></div>
                   <span className="font-semibold">2021</span>
                   <span className="text-gray-600">Online Platform Launch</span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-green-800 rounded-full"></div>
                   <span className="font-semibold">2023</span>
                   <span className="text-gray-600">1,000+ Students Milestone</span>
                 </div>
@@ -192,7 +192,7 @@ export default function AboutPage() {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="bg-black text-white rounded-3xl p-8 shadow-2xl">
+              <div className="bg-green-700 text-white rounded-3xl p-8 shadow-2xl">
                 <div className="h-full flex flex-col justify-center">
                   <h3 className="text-3xl font-bold mb-8">Our Achievements</h3>
                   <ul className="space-y-6">
@@ -297,7 +297,7 @@ export default function AboutPage() {
       </Section>
 
       {/* Enhanced Mission Statement */}
-      <Section className="bg-black text-white relative overflow-hidden">
+      <Section className="bg-green-700 text-white relative overflow-hidden">
         {/* Background pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[length:50px_50px]"></div>

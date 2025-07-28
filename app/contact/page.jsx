@@ -110,7 +110,7 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Banner */}
-      <Section className="bg-black/80 text-white">
+      <Section className="bg-green-700/80 text-white">
         <Container>
           <MotionDiv
             variants={fadeInUp}
@@ -170,7 +170,7 @@ export default function ContactPage() {
               <div className="space-y-8 mb-12">
                 {/* Phone */}
                 <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
+                  <div className="w-16 h-16 bg-green-700 rounded-2xl flex items-center justify-center">
                     <Phone className="w-8 h-8 text-white" />
                   </div>
                   <div>
@@ -188,7 +188,7 @@ export default function ContactPage() {
 
                 {/* Email */}
                 <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
+                  <div className="w-16 h-16 bg-green-700 rounded-2xl flex items-center justify-center">
                     <Mail className="w-8 h-8 text-white" />
                   </div>
                   <div>
@@ -201,7 +201,7 @@ export default function ContactPage() {
 
                 {/* Address */}
                 <div className="flex items-start space-x-6">
-                  <div className="w-16 h-16 bg-black rounded-2xl flex items-center justify-center">
+                  <div className="w-16 h-16 bg-green-700 rounded-2xl flex items-center justify-center">
                     <MapPin className="w-8 h-8 text-white" />
                   </div>
                   <div>
@@ -221,21 +221,21 @@ export default function ContactPage() {
                 <div className="flex space-x-4">
                   <a
                     href={siteConfig.social.instagram}
-                    className="group p-4 bg-black rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
+                    className="group p-4 bg-green-700 rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
                     aria-label="Instagram"
                   >
                     <Instagram className="w-6 h-6" />
                   </a>
                   <a
                     href={siteConfig.social.telegram}
-                    className="group p-4 bg-black rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
+                    className="group p-4 bg-green-700 rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
                     aria-label="Telegram"
                   >
                     <Send className="w-6 h-6" />
                   </a>
                   <a
                     href={siteConfig.social.youtube}
-                    className="group p-4 bg-black rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
+                    className="group p-4 bg-green-700 rounded-2xl text-white hover:bg-black/90 transition-all duration-300 hover:scale-105"
                     aria-label="YouTube"
                   >
                     <Youtube className="w-6 h-6" />
@@ -357,7 +357,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full px-8 py-4 bg-black text-white font-semibold rounded-2xl hover:bg-black/90 transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                    className="w-full px-8 py-4 bg-green-700 text-white font-semibold rounded-2xl hover:bg-black/90 transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                   >
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </button>

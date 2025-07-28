@@ -56,32 +56,32 @@ const HeroSection = () => {
         <motion.div className="mb-8" variants={item}>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight">
             <AnimatePresence mode="wait">
+              <span className="inline-block text-[#ffffff] text-4xl sm:text-5xl md:text-7xl">ABSOLUTE</span>
               <motion.span
                 initial="initial"
                 animate="animate"
                 exit="exit"
                 className="inline-block text-[#ffffff] text-4xl sm:text-5xl md:text-7xl"
               >
-                ABSOLUTE STOCK MARKET INSTITUTE
+                 STOCK MARKET INSTITUTE
               </motion.span>
             </AnimatePresence>
           </h1>
         </motion.div>
 
         <motion.div className="mb-8" variants={item}>
-<h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight">
-  <AnimatePresence mode="wait">
-    <motion.span
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      className="inline-block text-blue-950 text-4xl sm:text-5xl md:text-7xl drop-shadow-[0_1px_1px_rgba(255,255,255,1)] drop-shadow-[0_-1px_1px_rgba(255,255,255,1)] drop-shadow-[1px_0_1px_rgba(255,255,255,1)] drop-shadow-[-1px_0_1px_rgba(255,255,255,1)]"
-    >
-      Master the Markets
-    </motion.span>
-  </AnimatePresence>
-</h1>
-
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight">
+            <AnimatePresence mode="wait">
+              <motion.span
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                className="inline-block text-green-700 text-4xl sm:text-5xl md:text-7xl drop-shadow-[0_1px_1px_rgba(255,255,255,1)]"
+              >
+                Master the Markets
+              </motion.span>
+            </AnimatePresence>
+          </h1>
         </motion.div>
 
         {/* headline */}
@@ -101,7 +101,7 @@ const HeroSection = () => {
             </AnimatePresence>
             <span className="text-[#ffffff]">.</span>
             <br />
-<span className="text-blue-950 drop-shadow-[0_2px_2px_rgba(255,255,255,1)] drop-shadow-[0_1px_1px_rgba(255,255,255,1)] drop-shadow-[1px_0_1px_rgba(255,255,255,1)] drop-shadow-[-1px_0_1px_rgba(255,255,255,1)]">
+<span className="bg-green-700 drop-shadow-[0_2px_2px_rgba(255,255,255,1)] drop-shadow-[0_1px_1px_rgba(255,255,255,1)] drop-shadow-[1px_0_1px_rgba(255,255,255,1)] drop-shadow-[-1px_0_1px_rgba(255,255,255,1)]">
   Master the Markets
 </span>
 
@@ -149,13 +149,13 @@ const HeroSection = () => {
         >
           <motion.button
             whileTap={{ scale: 0.95 }}
-            className="py-3 px-10 text-lg font-semibold text-white rounded-full bg-blue-950 hover:bg-[#0052CC] transition"
+            className="py-3 px-10 text-lg font-semibold text-white rounded-full bg-green-700 hover:bg-[#0052CC] transition"
           >
             START
           </motion.button>
           <Link
             href="/contact"
-            className="py-3 px-10 text-lg font-semibold rounded-full border border-[#ffffff] bg-white text-blue-950 hover:bg-black hover:text-white transition"
+            className="py-3 px-10 text-lg font-semibold rounded-full border border-[#ffffff] bg-white text-green-700 hover:bg-black hover:text-white transition"
           >
             Contact Us
           </Link>
@@ -167,15 +167,15 @@ const HeroSection = () => {
           variants={item}
         >
           <div className="text-center">
-            <div className="text-3xl font-extrabold">1,000+</div>
+            <div className="text-3xl font-extrabold text-green-700">1,000+</div>
             <div className="text-sm font-light">Students Trained</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-extrabold">95%</div>
+            <div className="text-3xl font-extrabold text-green-700">95%</div>
             <div className="text-sm font-light">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-extrabold">5+</div>
+            <div className="text-3xl font-extrabold text-green-700">5+</div>
             <div className="text-sm font-light">Years Experience</div>
           </div>
         </motion.div>

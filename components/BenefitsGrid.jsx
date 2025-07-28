@@ -39,7 +39,7 @@ export default function BenefitsGrid() {
             <div className="inline-block px-4 py-2 border border-black/10 rounded-full text-sm font-medium text-black/60 mb-6">
               ✨ TRADING EXCELLENCE
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-950 mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold text-green-700 mb-6 leading-tight">
               Why Choose Our
               <span className="block relative">
                 Trading Program?
@@ -72,8 +72,8 @@ export default function BenefitsGrid() {
                 className={`group relative p-8 border border-black/10 rounded-3xl transition-all duration-500 hover:border-black hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(0,0,0,0.1)] cursor-pointer
                             ${
                               dark
-                                ? "bg-blue-950/80 text-white"
-                                : "bg-white text-blue-950"
+                                ? "bg-green-700/90 text-white"
+                                : "bg-white text-green-700"
                             }`}
               >
                 {/* icon */}
@@ -81,14 +81,14 @@ export default function BenefitsGrid() {
                   className={`relative w-14 h-14 rounded-2xl flex items-center justify-center mb-8 transition-all
                               ${
                                 dark
-                                  ? "bg-white text-blue-950"
+                                  ? "bg-white text-green-700"
                                   : "bg-black text-white"
                               } group-hover:scale-110`}
                 >
                   <Icon className="w-7 h-7" />
                   <div
                     className={`absolute -top-1 -right-1 w-3 h-3 rounded-full animate-pulse
-                                ${dark ? "bg-white" : "bg-blue-950"}`}
+                                ${dark ? "bg-white" : "text-green-700"}`}
                   />
                 </div>
 
@@ -98,7 +98,7 @@ export default function BenefitsGrid() {
                 </h3>
                 <p
                   className={`${
-                    dark ? "text-white/80" : "text-black/70"
+                    dark ? "text-black/80" : "text-black/70"
                   } text-sm leading-relaxed`}
                 >
                   {benefit.description}

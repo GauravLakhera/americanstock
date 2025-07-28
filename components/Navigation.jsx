@@ -36,7 +36,7 @@ export default function Navigation() {
       }`}
     >
       <Container>
-        <nav className="flex items-center justify-between h-16 lg:h-20">
+        <nav className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <img src="/images/logo.png" alt="logo" className='w-[5rem]' />
@@ -48,9 +48,9 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`relative text-sm font-medium transition-colors hover:text-royal-500 ${
+                className={`relative text-sm font-medium transition-colors hover:text-green-500 ${
                   pathname === item.href 
-                    ? 'text-blue-600' 
+                    ? 'text-green-700' 
                     : scrolled ? 'text-navy-900' : 'text-navy-900'
                 }`}
               >
@@ -58,14 +58,14 @@ export default function Navigation() {
                 {pathname === item.href && (
                   <MotionDiv
                     layoutId="activeTab"
-                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-royal-500"
+                    className="absolute -bottom-1 left-0 right-0 h-0.5 bg-green-500"
                   />
                 )}
               </Link>
             ))}
             
            
-              <Link href="/contact" className='border px-2 py-3 rounded-lg bg-blue-900 text-white'>Get Started</Link>
+              <Link href="/contact" className='border px-2 py-3 rounded-lg bg-green-800 text-white'>Get Started</Link>
            
           </div>
 
