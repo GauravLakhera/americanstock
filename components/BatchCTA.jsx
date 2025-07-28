@@ -186,7 +186,7 @@ export default function BatchCTA() {
             {[
               { value: "24hrs", label: "Response Time", icon: Clock },
               { value: "100%", label: "Satisfaction", icon: Star },
-              { value: "500+", label: "Students Trained", icon: Users },
+              { value: "1000+", label: "Students Trained", icon: Users },
               { value: "5+", label: "Years Experience", icon: CheckCircle },
             ].map((stat, index) => (
               <div

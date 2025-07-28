@@ -26,7 +26,7 @@ export default function FAQ() {
       />
       
       {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-navy-900/80 via-blue-900/70 to-slate-900/85 backdrop-blur-sm" />
+      <div className="absolute inset-0 bg-gradient-to-br from-navy-800/95  to-slate-900 backdrop-blur-sm" />
       
       {/* Glass morphism pattern overlay */}
       <div className="absolute inset-0 opacity-20">

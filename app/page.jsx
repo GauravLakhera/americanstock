@@ -31,7 +31,7 @@ export default function HomePage() {
 <AboutUs/>
 
       {/* Batch Countdown */}
-      <BatchCountdown />
+      {/* <BatchCountdown /> */}
 
       {/* Testimonials */}
       <TestimonialSlider />
