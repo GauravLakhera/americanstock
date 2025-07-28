@@ -4,17 +4,10 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const HeroSection = () => {
-  const [currentText, setCurrentText] = useState(0);
-  const rotatingTexts = ["Learn Trading", "Earn Smart", "Build Wealth"];
 
-  /* — text carousel — */
-  useEffect(() => {
-    const id = setInterval(
-      () => setCurrentText((i) => (i + 1) % rotatingTexts.length),
-      2_500
-    );
-    return () => clearInterval(id);
-  }, []);
+
+
+
 
   /* — animation presets — */
   const container = {
@@ -40,11 +33,12 @@ const HeroSection = () => {
 
   return (
     <section
-      className="relative mt-10 flex items-center justify-center min-h-screen text-center text-white bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/bg2.jpg')" }}
+      className="relative mt-10 flex items-center justify-center min-h-screen text-center text-white bg-cover bg-left-top bg-no-repeat"
+      style={{ backgroundImage: "url('/images/bg2.jpg')",backgroundPositionX:"right"
+       }}
     >
       {/* dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/50 from-black/80 via-transparent to-transparent" />
+      <div className="absolute inset-0" />
 
       <motion.div
         className="relative z-10 max-w-5xl px-6 sm:px-8"
@@ -84,41 +78,7 @@ const HeroSection = () => {
           </h1>
         </motion.div>
 
-        {/* headline */}
-        {/* <motion.div className="mb-8" variants={item}>
-          <h1 className="text-3xl  font-bold leading-tight tracking-tight">
-            <AnimatePresence mode="wait">
-              <motion.span
-                key={currentText}
-                variants={swapText}
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                className="inline-block text-[#ffffff] text-4xl  "
-              >
-                {rotatingTexts[currentText]}
-              </motion.span>
-            </AnimatePresence>
-            <span className="text-[#ffffff]">.</span>
-            <br />
-<span className="bg-green-700 drop-shadow-[0_2px_2px_rgba(255,255,255,1)] drop-shadow-[0_1px_1px_rgba(255,255,255,1)] drop-shadow-[1px_0_1px_rgba(255,255,255,1)] drop-shadow-[-1px_0_1px_rgba(255,255,255,1)]">
-  Master the Markets
-</span>
-
-
-
-          </h1>
-        </motion.div> */}
-
-        {/* sub-copy */}
-        {/* <motion.p
-          className="max-w-3xl mx-auto mb-10 text-lg sm:text-xl font-light"
-          variants={item}
-        >
-          Join our practical, result-driven trading classes and learn real-world
-          strategies in Options, Technical Analysis, Chart Patterns and Risk Control.
-        </motion.p> */}
-
+       
         {/* benefits */}
         <motion.div
           className="flex flex-wrap justify-center gap-4 mb-12"
@@ -166,16 +126,16 @@ const HeroSection = () => {
           className="flex justify-center gap-10 text-[#ffffff]"
           variants={item}
         >
-          <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-500">1,000+</div>
+          <div className="text-center bg-green-700/80 p-1 rounded-lg">
+            <div className="text-3xl font-extrabold  rounded-sm text-white">1,000+</div>
             <div className="text-sm font-light">Students Trained</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-500">95%</div>
+          <div className="text-center bg-green-700/80 p-1 rounded-lg">
+            <div className="text-3xl font-extrabold text-white">95%</div>
             <div className="text-sm font-light">Success Rate</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl font-extrabold text-green-500">5+</div>
+          <div className="text-center bg-green-700/80 p-1 rounded-lg">
+            <div className="text-3xl font-extrabold text-white">5+</div>
             <div className="text-sm font-light">Years Experience</div>
           </div>
         </motion.div>

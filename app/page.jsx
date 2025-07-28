@@ -4,6 +4,8 @@ import BatchCountdown from '../components/BatchCountdown';
 import TestimonialSlider from '../components/TestimonialSlider';
 import FAQ from '../components/FAQ';
 import BatchCTA from "../components/BatchCTA"
+import AboutPage from './about/page';
+import AboutUs from '@/components/AboutUs';
 
 export const metadata = {
   title: 'American Stock Market Institute - Learn Trading, Earn Smart, Build Wealth',
@@ -25,6 +27,8 @@ export default function HomePage() {
       <BenefitsGrid />
 
 <BatchCTA/>
+
+<AboutUs/>
 
       {/* Batch Countdown */}
       <BatchCountdown />
