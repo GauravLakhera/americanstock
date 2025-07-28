@@ -106,7 +106,7 @@ export default function BenefitsGrid() {
                   }`}
               >
                 {/* Gradient Background on Hover */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${gradients[index]} opacity-0 group-hover:opacity-95 transition-opacity duration-500 rounded-3xl`}></div>
+                <div className={`absolute inset-0 bg-gradient-to-br ${gradients[index]} opacity-1 group-hover:opacity-95 transition-opacity duration-500 rounded-3xl`}></div>
                 
                 {/* Content */}
                 <div className="relative z-10">
@@ -129,12 +129,12 @@ export default function BenefitsGrid() {
 
                   {/* Text Content */}
                   <div className="space-y-4">
-                    <h3 className={`font-bold text-gray-900 group-hover:text-white transition-colors leading-tight
+                    <h3 className={`font-bold text-gray-100 group-hover:text-white transition-colors leading-tight
                       ${isFeature ? 'text-2xl' : 'text-xl'}`}>
                       {benefit.title}
                     </h3>
                     
-                    <p className={`text-gray-600 group-hover:text-white/90 transition-colors leading-relaxed
+                    <p className={`text-gray-100 group-hover:text-white/90 transition-colors leading-relaxed
                       ${isFeature ? 'text-base' : 'text-sm'}`}>
                       {benefit.description}
                     </p>
