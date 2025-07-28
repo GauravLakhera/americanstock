@@ -39,7 +39,7 @@ export default function Navigation() {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <img src="/images/logo.png" alt="logo" className='w-[7rem]' />
+            <img src="/images/logo.png" alt="logo" className='w-[5rem]' />
           </Link>
 
           {/* Desktop Navigation */}
@@ -73,7 +73,7 @@ export default function Navigation() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`md:hidden p-2 rounded-lg transition-colors ${
-              scrolled ? 'text-navy-900 hover:bg-gray-100' : 'text-white hover:bg-white/10'
+              scrolled ? 'text-navy-900 hover:bg-gray-100' : 'text-black hover:bg-white/10'
             }`}
             aria-label="Toggle menu"
           >

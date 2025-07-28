@@ -5,7 +5,7 @@ import Container from './Container';
 
 export default function Footer() {
   return (
-    <footer className="  text-black border-t border-black">
+    <footer className=" bg-gray-50 text-black border-t border-black">
       <Container>
         <div className="py-12 lg:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -63,19 +63,19 @@ export default function Footer() {
             </div>
 
             {/* Contact Info */}
-            <div>
+            <div className=''>
               <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
               <ul className="space-y-3">
                 <li className="flex items-start space-x-3">
-                  <Phone size={16} className="mt-1 text-lime-400" />
+                  <Phone size={16} className="mt-1 text-blue-900" />
                   <span className="text-gray-800">{siteConfig.contact.phone}</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <Mail size={16} className="mt-1 text-lime-400" />
+                  <Mail size={16} className="mt-1 text-blue-900" />
                   <span className="text-gray-800">{siteConfig.contact.email}</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <MapPin size={16} className="mt-1 text-lime-400" />
+                  <MapPin size={16} className="mt-1 text-blue-900" />
                   <span className="text-gray-800">{siteConfig.contact.address}</span>
                 </li>
               </ul>
@@ -86,8 +86,8 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-800 text-sm">
-              © 2025 American Stock Market Institute. All rights reserved.
+            <p className="text-gray-800 text-sm uppercase">
+              © 2025 ABSOLUTE STOCK MARKET INSTITUTE. All rights reserved.
             </p>
             <p className="text-gray-800 text-sm mt-2 md:mt-0">
               Made with ❤️ for aspiring traders

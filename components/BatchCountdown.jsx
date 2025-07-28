@@ -25,7 +25,7 @@ export default function BatchCountdown() {
   }, []);
 
   return (
-    <Section className=" text-black shadow-lg rounded-md">
+    <Section className=" bg-black/10 text-white shadow-lg rounded-md">
       <Container>
         <MotionDiv
           variants={staggerContainer}
@@ -41,7 +41,7 @@ export default function BatchCountdown() {
                 Next Batch Starts Soon!
               </h2>
             </div>
-            <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Don't miss out on our next comprehensive trading program. 
               Limited seats available for personalized attention.
             </p>
@@ -59,7 +59,7 @@ export default function BatchCountdown() {
                   <div className="text-3xl md:text-4xl font-bold text-lime-400 mb-2">
                     {item.value.toString().padStart(2, '0')}
                   </div>
-                  <div className="text-sm text-gray-800 uppercase tracking-wide">
+                  <div className="text-sm text-gray-300 uppercase tracking-wide">
                     {item.label}
                   </div>
                 </div>

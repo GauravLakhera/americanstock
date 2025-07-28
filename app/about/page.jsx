@@ -169,18 +169,18 @@ export default function AboutPage() {
               <div className="mt-8 space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-black rounded-full"></div>
-                  <span className="font-semibold">2013</span>
+                  <span className="font-semibold">2019</span>
                   <span className="text-gray-600">Institute Founded</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-black rounded-full"></div>
-                  <span className="font-semibold">2018</span>
+                  <span className="font-semibold">2021</span>
                   <span className="text-gray-600">Online Platform Launch</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-3 h-3 bg-black rounded-full"></div>
                   <span className="font-semibold">2023</span>
-                  <span className="text-gray-600">15,000+ Students Milestone</span>
+                  <span className="text-gray-600">1,000+ Students Milestone</span>
                 </div>
               </div>
             </MotionDiv>
@@ -206,13 +206,13 @@ export default function AboutPage() {
                       <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-white/20 transition-colors">
                         <Users className="w-6 h-6" />
                       </div>
-                      <span className="text-lg">15,000+ Successful Graduates</span>
+                      <span className="text-lg">1,000+ Successful Graduates</span>
                     </li>
                     <li className="flex items-center group">
                       <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-white/20 transition-colors">
                         <TrendingUp className="w-6 h-6" />
                       </div>
-                      <span className="text-lg">87% Student Success Rate</span>
+                      <span className="text-lg">95% Student Success Rate</span>
                     </li>
                   </ul>
                 </div>
