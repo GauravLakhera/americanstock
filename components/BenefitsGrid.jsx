@@ -50,21 +50,9 @@ export default function BenefitsGrid() {
             
             <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-[0.9]">
               Why Choose Our
-              <span className="block bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent relative">
+              <span className="block py-5 bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent relative">
                 Trading Program?
-                <svg 
-                  className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-3" 
-                  viewBox="0 0 120 12" 
-                  fill="none"
-                >
-                  <path 
-                    d="M2 6C40 2 80 10 118 6" 
-                    stroke="currentColor" 
-                    strokeWidth="3" 
-                    strokeLinecap="round"
-                    className="text-green-400"
-                  />
-                </svg>
+
               </span>
             </h2>
             

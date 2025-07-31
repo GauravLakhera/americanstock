@@ -200,7 +200,7 @@ export default function BatchCTA() {
             ))}
           </MotionDiv>
 
-          {/* Testimonial */}
+          {/* Testimonial
           <MotionDiv variants={fadeInUp} className="relative">
             <div className="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-xl border border-white/20 rounded-3xl p-8 text-center">
               <div className="max-w-3xl mx-auto">
@@ -226,7 +226,7 @@ export default function BatchCTA() {
                 </div>
               </div>
             </div>
-          </MotionDiv>
+          </MotionDiv> */}
         </MotionDiv>
       </Container>
     </Section>
