@@ -420,8 +420,8 @@ export default function ContactPage() {
               <p className="text-black/70">Free parking available</p>
             </div>
             <div className="text-center p-6 bg-white rounded-2xl border border-black/10">
-              <h3 className="font-bold text-black mb-2">Public Transport</h3>
-              <p className="text-black/70">Near metro station</p>
+<h3 className="font-bold text-black mb-2">Public Transport</h3>
+<p className="text-black/70">Easily Reachable </p>
             </div>
           </div>
         </Container>

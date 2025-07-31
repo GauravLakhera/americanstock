@@ -147,7 +147,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6 text-gray-700 leading-relaxed text-lg">
                 <p>
-                  Founded in 2013, the American Stock Market Institute has been at the forefront 
+                  Founded in 2019, the Absolute Stock Market Institute has been at the forefront 
                   of financial education in India. What started as a small initiative to help 
                   individuals understand the stock market has grown into one of the most trusted 
                   names in trading education.

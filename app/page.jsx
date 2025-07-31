@@ -6,6 +6,7 @@ import FAQ from '../components/FAQ';
 import BatchCTA from "../components/BatchCTA"
 import AboutPage from './about/page';
 import AboutUs from '@/components/AboutUs';
+import StockTicker from '@/components/StockTicker';
 
 export const metadata = {
   title: 'American Stock Market Institute - Learn Trading, Earn Smart, Build Wealth',
@@ -22,7 +23,7 @@ export default function HomePage() {
         ctaText="START — Get Details"
         ctaHref="/contact"
       />
-
+<StockTicker/>
       {/* Benefits Grid */}
       <BenefitsGrid />
 

@@ -126,3 +126,32 @@
     0 -2px 0 white,
     0 2px 0 white;
 }
+/* styles.css */
+.ticker-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #222;
+  color: #fff;
+  font-family: monospace;
+  border: 1px solid #444;
+}
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  animation: ticker-slide 20s linear infinite;
+}
+
+.ticker-item {
+  display: inline-block;
+}
+
+@keyframes ticker-slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
